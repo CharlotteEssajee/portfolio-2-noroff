@@ -227,10 +227,16 @@ main {
 
 @media (max-width: 450px) {
     h1 {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .card img {
         max-width: 250px;
+    }
+}
+
+@media (max-width: 350px) {
+    h1 {
+        font-size: 25px;
     }
 }
