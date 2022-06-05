@@ -176,8 +176,6 @@ main {
     text-decoration: none;
 }
 
-/*test*/
-
 .card {
     display: grid;
     padding: 2rem;
@@ -200,6 +198,19 @@ main {
 .spacer {
     height: 40px;
     background-color: #f5f5f5;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+.footer-icon {
+    color: #00324e;
+    font-size: 30px;
 }
 
 @media (max-width: 830px) {
