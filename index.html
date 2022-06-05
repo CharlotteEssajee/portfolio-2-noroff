@@ -28,7 +28,11 @@
             <div class="content">
                 <small>Charlotte Essajee</small>
                 <h1>Welcome to <br />Exam Portfolio 2</h1>
-                <button class="hero-btn" type="button">
+                <button
+                    class="hero-btn"
+                    type="button"
+                    onClick="document.getElementById('card').scrollIntoView({behavior:'smooth'});"
+                >
                     Skip to the good part
                 </button>
             </div>
@@ -69,7 +73,7 @@
         <main>
             <!-- MAIN CARDS -->
             <div class="column">
-                <div class="card">
+                <div class="card" id="card">
                     <img
                         src="images/holidaze.png"
                         alt="holidaze booking website mobile mockup"
